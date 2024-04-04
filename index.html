@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/585e18b6c4.js" crossorigin="anonymous"></script>
+    <title>IMC Calculator</title>
+</head>
+<body>
+    <main id="container">
+        <section id="img">
+            <img src="/assets/img/undraw_personal_trainer_re_cnua.svg" alt="" style="width: 100px;">
+        </section>
+        
+        <section id="calculator">
+            <form action="" id="form">
+                <h1 id="Title">
+                    IMC Calculator
+                </h1>
+
+                <div class="input-box">
+                    <label for="weight">Peso: </label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-weight-hanging"></i>
+                        <input type="number" name="weight" id="weight" required>
+                        <span>KG</span>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="height">Altura(em metros): </label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-ruler"></i>
+                        <input type="number" name="height" id="height" required>
+                        <span>MG</span>
+                    </div>
+                </div>
+
+                <button id="calculate">
+                    Calcular
+                </button>
+            </form>
+
+            <div id="info">
+                <div id="result">
+                    <div id="bmi">
+                        <span id="value"></span>
+                        <span>Seu IMC:</span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div id="more-info">
+                    <a href="https://brasilescola.uol.com.br/saude">Mais informações sobre IMC.
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
