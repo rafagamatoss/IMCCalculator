@@ -96,6 +96,10 @@ body{
     outline: none;
 }
 
+.hidden{
+    display: none;
+}
+
 #calculate{
     padding: 1rem;
     background-color: #16a34a;
@@ -104,4 +108,31 @@ body{
     border: none;
     border-radius: .5rem;
     cursor: pointer;
+}
+
+.normal{
+    color: #16a34a;
+}
+
+.attention{
+    color: red;
+}
+
+@media (max-width: 1024px) {
+   #img{
+    display: none;
+   } 
+}
+
+@media (max-width: 390px) {
+  #container{
+   background-color: red;
+  }
+
+  #calculator{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    justify-content: center;
+  }
 }
