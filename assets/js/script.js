@@ -25,10 +25,10 @@ form.addEventListener('submit', function(event){
     else if(imc >= 25 && imc <= 30){
         description = 'Sobrepeso'
     }
-    else if(imc >= 18.5 && imc <= 25){
+    else if(imc >= 30 && imc <= 35){
         description = 'Obesidade moderada'
     }
-    else if(imc >= 18.5 && imc <= 25){
+    else if(imc >= 35 && imc <= 40){
         description = 'Obesidade severa'
     }else{
         description = 'Obesidade mórbida.'
